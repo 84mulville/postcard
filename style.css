@@ -1,0 +1,67 @@
+body {
+    background: black;
+    font-family: comic sans ms;
+}
+
+.postcard {
+    background: white; width: 450px; height: 350px; 
+    background-position: center;
+    margin-left: 32%;
+    margin-top: 10%;
+}
+.postcard-header {
+    display: flex;
+    margin-left: 5px; 
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.header-image {
+    margin-left: auto;
+    padding-top: 10px;
+
+}
+img {
+    height: 65px; width: 65px;
+
+}
+.postcard-body {
+    margin-left: 5px;
+    width: 200px; height: 200px;
+    margin-bottom: 15px;
+}
+.postcard-footer {
+    display: flex;
+    color: black;
+    margin-bottom: 25px;
+    width: 450px;
+    height: 25px;
+   
+}
+input[type=text] {
+    border-bottom: 2px solid #333333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30%;
+    
+} 
+.body-form {
+    width: 50px; height: 60px;
+    margin-left: 125%;
+    margin-bottom: 30%;
+}
+.body-text {
+    width: 250px; height: 50px;
+    margin-top: 10%;
+}
+.header-text {
+    font-size: large;
+}
+.footer-text {
+    height: 10px; width: 20px;
+    position: absolute; left: 45%;
+}
+.footer-text input[type=submit] {
+    background-color: gray;
+}
